@@ -5,3 +5,9 @@ def determinante(matriz):
     a,b,c=matriz[0]
     d,e,f=matriz[1]
     g,h,i=matriz[2]
+
+matriz_3x3 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
