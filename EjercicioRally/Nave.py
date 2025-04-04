@@ -41,3 +41,8 @@ for nave in naves_gx:
 naves_6 = [nave for nave in naves if nave["tripulantes"]  >= 6]
 for nave in naves_6:
     print(nave)
+
+nave_pequeña = min(naves, key =lambda nave: nave["longitud"])
+nave_grande = max(naves, key = lambda nave: nave["longitud"])
+print(nave_pequeña)
+print(nave_grande)
