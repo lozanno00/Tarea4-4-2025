@@ -7,6 +7,11 @@ def determinante(matriz):
     g,h,i=matriz[2]
 
 
-    
-
+matriz= [
+    [1,2,3],
+    [3,4,5],
+    [6,7,8]
 ]
+
+resultado=determinante(matriz)
+print(resultado)
